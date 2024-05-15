@@ -96,6 +96,7 @@ class Zoo:
 sparrow = Bird("Воробей", 1)
 cat = Mammal("Кот", 3)
 snake = Reptile("Змея", 2)
+monkey = Mammal("Обезьяна", 5)
 
 # Создание объектов сотрудников
 zookeeper = ZooKeeper("Алексей")
@@ -106,6 +107,7 @@ zoo = Zoo()
 zoo.add_animal(sparrow)
 zoo.add_animal(cat)
 zoo.add_animal(snake)
+zoo.add_animal(monkey)
 zoo.add_staff(zookeeper)
 zoo.add_staff(veterinarian)
 
