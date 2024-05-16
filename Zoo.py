@@ -64,6 +64,7 @@ class Zoo:
         self.animals = []
         self.staff = []
 
+
     def add_animal(self, animal):
         self.animals.append(animal)
         print(f"Добавлено животное: {animal.name}")
